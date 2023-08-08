@@ -1,0 +1,2 @@
+Pattern matching is a powerful feature in Scala that allows you to match values against patterns and execute code based on the matched pattern. It's a more expressive and concise way to handle complex conditional logic and is commonly used in functional programming to destructure data.
+Pattern matching can be used with various data types, including literals, case classes, tuples, and more. It provides a way to handle different cases in a more elegant and readable manner.
