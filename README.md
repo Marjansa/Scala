@@ -5,8 +5,8 @@ Welcome to the "Learning Scala" repository! This repository is designed to help 
 
 Scala is a rich and expressive programming language that combines object-oriented and functional programming paradigms. To get you started, here are some fundamental keywords and concepts in Scala:
 
-1.	val and var: Used to declare immutable (val) and mutable (var) variables, respectively.
-2.	def: Used to define methods (functions) in Scala.
+1.	**val and var**: Used to declare immutable (val) and mutable (var) variables, respectively.
+2.	**def**: Used to define methods (functions) in Scala.
 3.	if, else if, else: Conditional statements for branching logic.
 4.	match: Pattern matching construct, used for more powerful and flexible conditionals.
 5.	class: Keyword to define a class, which is a blueprint for creating objects.
