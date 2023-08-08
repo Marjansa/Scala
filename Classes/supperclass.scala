@@ -1,4 +1,6 @@
 // Base class representing a Vehicle
+/**gygygtyw
+ * iihwi*/
 class Vehicle(val make: String, val model: String) {
   def start(): Unit = {
     println(s"The $make $model is starting.")
