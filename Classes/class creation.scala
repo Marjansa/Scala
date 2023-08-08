@@ -20,4 +20,16 @@ object Main {
     println(s"Full Name: ${person.fullName}")
     person.greet()
   }
+  def main(args: Array[String]): Unit = {
+    val car = new Car("Toyota", "Camry", 4)
+    val motorcycle = new Motorcycle("Harley-Davidson", "Sportster", true)
+    
+    car.start()
+    car.honk()
+    car.stop()
+    
+    motorcycle.start()
+    motorcycle.revEngine()
+    motorcycle.stop()
+  }
 }
