@@ -11,13 +11,13 @@ Scala is a rich and expressive programming language that combines object-oriente
 4.	match: Pattern matching construct, used for more powerful and flexible conditionals.
 5.	class: Keyword to define a class, which is a blueprint for creating objects.
 6.	object: Keyword to define a singleton object or companion object associated with a class.
-7.	trait: Used to define interfaces or mixin functionality to classes.
+7.	**trait**: Used to define interfaces or mixin functionality to classes.
 8.	extends and with: Used for class inheritance and mixin composition.
 9.	this: Refers to the current instance of the class.
-10.	super: Refers to the parent class or trait.
-11.	new: Creates a new instance of a class.
+10.	**super**: Refers to the parent class or trait.
+11.	**new**: Creates a new instance of a class.
 12.	override: Indicates that a method or member is being overridden from a parent class or trait.
-13.	import: Used to bring classes, traits, or packages into scope.
+13.	**import**: Used to bring classes, traits, or packages into scope.
 14.	package: Used to define a namespace for classes and objects.
 15.	implicit: Used for implicit conversions, parameters, and classes.
 16.	try, catch, finally: Keywords for exception handling.
