@@ -1234,3 +1234,50 @@ Caused by: java.nio.file.FileSystemNotFoundException: Provider "gitlens" not ins
 
 2023.08.10 16:25:18 INFO  Running BSP server List(C:\Users\marjan.ghandchi\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\marjan.ghandchi\source\repos\New folder\Scala\.scala-build\ide-options-v2.json, C:\Users\marjan.ghandchi\source\repos\New folder\Scala)
 2023.08.10 16:25:24 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\marjan.ghandchi\source\repos\New folder\Scala\.metals\bsp.trace.json or C:\Users\marjan.ghandchi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.11 08:24:00 INFO  Started: Metals version 1.0.0+20-46905735-SNAPSHOT in folders 'C:\Users\marjan.ghandchi\source\repos\New folder\Scala' for client Visual Studio Code 1.81.0.
+Aug. 11, 2023 8:24:00 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersionOnly
+INFO: Flyway Community Edition 9.21.1 by Redgate
+Aug. 11, 2023 8:24:00 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: See release notes here: https://rd.gt/416ObMi
+Aug. 11, 2023 8:24:00 A.M. org.flywaydb.core.internal.license.VersionPrinter printVersion
+INFO: 
+Aug. 11, 2023 8:24:04 A.M. org.flywaydb.core.internal.database.base.BaseDatabaseType createDatabase
+INFO: Database: jdbc:h2:file:C:\Users\marjan.ghandchi\source\repos\New folder\Scala\.metals\metals (H2 2.1)
+Aug. 11, 2023 8:24:04 A.M. org.flywaydb.core.internal.command.DbValidate validate
+INFO: Successfully validated 4 migrations (execution time 00:00.021s)
+Aug. 11, 2023 8:24:04 A.M. org.flywaydb.core.internal.command.DbMigrate migrateGroup
+INFO: Current version of schema "PUBLIC": 4
+Aug. 11, 2023 8:24:04 A.M. org.flywaydb.core.internal.command.DbMigrate logSummary
+INFO: Schema "PUBLIC" is up to date. No migration necessary.
+2023.08.11 08:24:05 INFO  time: initialize in 4.78s
+2023.08.11 08:24:06 INFO  Attempting to connect to the build server...
+2023.08.11 08:24:06 INFO  Running BSP server List(C:\Users\marjan.ghandchi\AppData\Local\Coursier\data\bin\.scala-cli.aux.exe, bsp, --json-options, C:\Users\marjan.ghandchi\source\repos\New folder\Scala\.scala-build\ide-options-v2.json, C:\Users\marjan.ghandchi\source\repos\New folder\Scala)
+2023.08.11 08:24:06 WARN  No build session currently active to reload.
+2023.08.11 08:24:10 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\marjan.ghandchi\source\repos\New folder\Scala\.metals\bsp.trace.json or C:\Users\marjan.ghandchi\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2023.08.11 08:24:12 INFO  BSP server: Checking https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 08:24:12 INFO  BSP server: Checked https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 08:24:12 INFO  BSP server: Downloading https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 08:24:12 INFO  BSP server: Downloaded https://github.com/coursier/jvm-index/raw/master/index.json
+2023.08.11 08:24:13 INFO  BSP server: Starting compilation server
+2023.08.11 08:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.11 08:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/
+2023.08.11 08:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.11 08:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala-library/maven-metadata.xml
+2023.08.11 08:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 08:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 08:24:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 08:24:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/
+2023.08.11 08:24:24 INFO  BSP server: Checking https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 08:24:24 INFO  BSP server: Checked https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 08:24:24 INFO  BSP server: Downloading https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 08:24:24 INFO  BSP server: Downloaded https://repo1.maven.org/maven2/org/scala-lang/scala3-library_3/maven-metadata.xml
+2023.08.11 08:24:26 INFO  time: Connected to build server in 19s
+2023.08.11 08:24:26 INFO  Connected to Build server: scala-cli v1.0.2
+2023.08.11 08:24:26 INFO  time: Imported build in 0.1s
+2023.08.11 08:24:27 INFO  compiling scala_bd2c96d2de (3 scala sources)
+2023.08.11 08:24:29 INFO  time: compiled Scala_bd2c96d2de in 2.14s
+2023.08.11 08:24:29 INFO  compiling scala_bd2c96d2de (3 scala sources)
+2023.08.11 08:24:29 INFO  time: compiled Scala_bd2c96d2de in 0.32s
+2023.08.11 08:24:31 INFO  time: indexed workspace in 4.89s
+Aug. 11, 2023 11:29:26 A.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
